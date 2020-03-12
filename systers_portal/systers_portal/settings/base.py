@@ -163,4 +163,4 @@ CKEDITOR_CONFIGS = {
 ANONYMOUS_USER_ID = None
 
 # Django Crispy Forms configuration
-CRISPY_TEMPLATE_PACK = 'bootstrap3'
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
