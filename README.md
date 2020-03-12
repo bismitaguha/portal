@@ -34,7 +34,8 @@ Setup for developers (Unix)
      $ pip install -r requirements/dev.txt
      $ sudo apt-get install python-gdal
      ```
-1. Create `systersdb` database, where `systersdb` might be any suitable name.
+1. Create `systersdb` database, where `systersdb` might be any suitable name. 
+**Important:** Password cannot be empty while creating the user
     ```
     $ sudo -i -u postgres
     $ createuser <any name e.g. alice> --pwprompt
@@ -86,6 +87,7 @@ Setup for developers (Windows)
      $ pip install -r requirements/dev.txt 
      ```
 1. Create `systersdb` database, where `systersdb` might be any suitable name.
+**Important:** Password cannot be empty while creating the user
 - Open the SQL Shell for postgresql from the windows start menu or wherever accessible
 
     ```
